@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI計算機</string>
+    <string name="tv_nenrei">年齢</string>
+    <string name="tv_tosi">歳</string>
+    <string name="tv_sintilyou">身長</string>
+    <string name="tv_cm">cm</string>
+    <string name="tv_taijuu">体重</string>
+    <string name="tv_kg">kg</string>
+    <string name="bt_Clear">クリア</string>
+    <string name="bt_keisan">計算</string>
+</resources>

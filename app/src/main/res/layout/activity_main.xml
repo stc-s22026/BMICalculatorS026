@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_nenrei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_nenrei"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_nenrei"
+        app:layout_constraintEnd_toStartOf="@+id/et_nenrei"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_nenrei"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="text"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/tv_tosi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_tosi"
+        android:textColor="@color/material_dynamic_neutral50"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_nenrei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toEndOf="@+id/et_nenrei" />
+
+    <TextView
+        android:id="@+id/tv_sintilyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_sintilyou"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_sintilyou"
+        app:layout_constraintEnd_toStartOf="@+id/et_sintilyou"
+        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_cm"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_sintilyou"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toEndOf="@+id/et_sintilyou" />
+
+    <EditText
+        android:id="@+id/et_sintilyou"
+        android:layout_width="174dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nenrei"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_taijuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_taijuu"
+        android:textColor="@color/material_dynamic_neutral50"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_taijuu"
+        app:layout_constraintEnd_toStartOf="@+id/et_taijuu"
+        app:layout_constraintHorizontal_bias="0.802"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_taijuu"
+        android:layout_width="173dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_sintilyou"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_kg"
+        android:textColor="@color/material_dynamic_neutral50"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_taijuu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toEndOf="@+id/et_taijuu" />
+
+    <Button
+        android:id="@+id/bt_keisan"
+        android:layout_width="254dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="@string/bt_keisan"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_taijuu"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/bt_Clear"
+        android:layout_width="114dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button"
+        android:text="@string/bt_Clear"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_keisan"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <TextView
+        android:id="@+id/keltuka1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/et_nenrei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <TextView
+        android:id="@+id/keltuka2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="100px"
+        app:layout_constraintBottom_toTopOf="@+id/et_nenrei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keltuka1"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/keltuka3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_dynamic_neutral40"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/et_nenrei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keltuka2"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/keltuka4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_dynamic_neutral50"
+        android:textSize="70px"
+        app:layout_constraintBottom_toTopOf="@+id/et_nenrei"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/keltuka3"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TextView
+        android:id="@+id/keltuka5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/keltuka4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/keltuka4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
